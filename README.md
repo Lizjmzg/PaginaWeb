@@ -22,7 +22,7 @@ La página se encuentra dividida en 5 secciones:
 5. Información de contacto
 ![Información de contacto.](images/Informacióndecontacto.png).
 
-#Demo 💻
+# Demo 💻
 Puedes entrar a ver el demo en el siguiente vínculo [Estrellas: ¿qué son?](https://estrellas-paginaweb.netlify.app/).
 
 
