@@ -11,7 +11,7 @@ La página se encuentra dividida en x secciones:
 ![Primera parte de la página web.](images/Primera-parteweb.png)
 
 2. ¿Qué son las estrellas?
-![¿Qué son las estrellas?.](images/Qué son las estrellas.png) 
+![¿Qué son las estrellas?.](images/Quésonlasestrellas.png) 
 
 
 
