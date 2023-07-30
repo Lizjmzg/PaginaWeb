@@ -5,7 +5,7 @@ Este proyecto consistió en una práctica realizada en el bootcamp de TECNOLOchi
 # ¿Qué construí? 🧱
 Se construyó una página web que lleva como tema principal la Astronomía, en la cuál yo me enfoque en el tema de las estrellas, *Estrellas: ¿qué son?*
 
-La página se encuentra dividida en x secciones:
+La página se encuentra dividida en 5 secciones:
 
 1. Primera parte de la página web
 ![Primera parte de la página web.](images/Primera-parteweb.png)
@@ -14,13 +14,13 @@ La página se encuentra dividida en x secciones:
 ![¿Qué son las estrellas?.](images/Quésonlasestrellas.png)
 
 3. Nace una estrella
-![Nace una estrella.](images/Naceunaestrella)
+![Nace una estrella.](images/Naceunaestrella.png)
 
 4. Todo lo que brilla
 ![Todo lo que brilla.](images/Todoloquebrilla.png).
 
 5. Información de contacto
-![Información de contacto.](images/Informacióndecontacto). 
+![Información de contacto.](images/Informacióndecontacto.png). 
 
 
 
