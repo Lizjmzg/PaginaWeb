@@ -20,7 +20,11 @@ La página se encuentra dividida en 5 secciones:
 ![Todo lo que brilla.](images/Todoloquebrilla.png).
 
 5. Información de contacto
-![Información de contacto.](images/Informacióndecontacto.png). 
+![Información de contacto.](images/Informacióndecontacto.png).
+
+#Demo 💻
+Puedes entrar a ver el demo en el siguiente vínculo [Estrellas: ¿qué son?](https://estrellas-paginaweb.netlify.app/).
+
 
 
 
