@@ -1,0 +1,231 @@
+<!--DOCTYPE-Declaración de un archivo tipo HTML-->
+<!DOCTYPE html>
+<!--LANG-Lenguaje del sitio-->
+<html lang="en">
+<!--HEAD (cabeza) metadata-Info para el navegador-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lizeth Jiménez">
+    <meta name="description" content="Página Web de Lizeth Jiménez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Título -->
+    <title>Estrellas: ¿qué son? | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon-estrellas.png">  
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Google fonts con html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+</head>
+
+<!--BODY-Lo que ve el usuario-->
+<body>
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo-estrella.png" width="50" alt="Logo de la página web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#que-son">¿Qué son las estrellas?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#nacimiento">Nace una estrella</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#brilla">Todo lo que brilla</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SECCIÓN HERO-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <div class="card" style="width: 401px;">
+                <img class="hero-imagen-pleyades rounded-top" src="images/LasPléyades.png" class="card-img-top" alt="Pléyades">
+                    <div class="card-body rounded-bottom">
+                        <p class="card-text">Las Pléyades se catalogan como un cúmulo estelar abierto: «un grupo de estrellas que nacieron casi al mismo tiempo de una gigantesca nube de gas y polvo», explica <a href="https://www.space.com/pleiades.html" class="enlace" target="_blank"><span class="fuenteh1">Space</span></a>. Se sabe que nacieron hace 100 millones de años, aproximadamente, y se les identifica por su intenso fulgor azul.</p>
+                    </div>
+            </div>     
+        </div>
+        <!-- QUE SON LAS ESTRELLAS -->
+        <section id="que-son" class="que-son seccion-oscura">
+            <div class="contenedor seccion-oscura">
+                <h1 class="titulo-que-son">¿Qué son las estrellas?</h1>
+                <p class="seccion-texto">
+                    Las estrellas son motores de energía cósmica que producen calor, luz, rayos ultravioleta, rayos X y otras formas de radiación. Están compuestas casi en su totalidad de gas y plasma, un estado de supercalentamiento de la materia compuesta de partículas subatómicas. Aunque la estrella más conocida, el Sol, existe en solitario, tres de cada cuatro estrellas existen como parte de un sistema binario compuesto por dos estrellas orbitando mutuamente.
+                </p>
+            </div>
+        </section>
+        <!-- IMAGENES -->
+        <div class="mx-auto p-2" style="width: 200px;">
+            <img class="estrellas rounded-circle float-end" src="images/sun-image.jpg" alt="Sun">
+            <img class="estrellas rounded-circle" src="images/zeta_puppis.png" alt="Zeta Puppis">
+            <img class="estrellas rounded-circle float-end" src="images/Wolf-Rayet WR 124.png" alt="Wolf Rayet WR 124">
+        </div>
+        <!-- NACE UNA ESTRELLA -->
+        <section id="nacimiento" class="nacimiento seccion-clara">
+            <div class="contenedor seccion-clara">
+                <h1 class="titulo-nacimiento">Nace una estrella</h1>
+            <p class="seccion-texto-2">
+                El nacimiento de una estrella ocurre dentro de las <a href="https://spaceplace.nasa.gov/nebula/sp/#:~:text=formarse%20nuevas%20estrellas.-,Una%20nebulosa%20es%20una%20nube%20gigante%20de%20polvo%20y%20gas,comienzan%20a%20formarse%20nuevas%20estrellas." class="enlace3" target="_blank"><span class="seccion-texto2">nebulosas</span></a>, que son nubes de polvo constituidas por hidrógeno. A lo largo de miles de años, la gravedad provoca que las cavidades de materia densa dentro de la nebulosa colapsen bajo su propio peso. Una de estas masas de gas que se contrae, denominada protoestrella, representa la etapa naciente de la estrella. Debido a que el polvo de las nebulosas las oculta, las protoestrellas son difíciles de detectar.
+            </p>
+                    <div class="text-center">
+                    <img class="img-nebulosa rounded" src="images/nebulosa.jpg" alt="Nebulosa">
+                    </div>
+                <br>
+            <p class="seccion-texto-3">
+                A medida que una protoestrella se hace más pequeña, gira más rápido debido a la conservación del momento angular (el mismo principio que explica por qué aumenta la velocidad a la que un patinador gira cuando aprieta sus brazos). La presión en aumento provoca temperaturas elevadas, y durante este tiempo, una estrella ingresa en lo que se denomina la fase T Tauri, una etapa relativamente breve.
+                <br>
+                Millones de años después, cuando la temperatura del núcleo llega a los 27 millones de grados Fahrenheit (es decir, 15 millones de grados Celsius), la fusión nuclear comienza, encendiendo el núcleo y desencadenando la próxima (y más larga) fase de la vida de una estrella, conocida como la
+                <a href="https://www.sea-astronomia.es/glosario/secuencia-principal" class="enlace3" target="_blank"><span class="seccion-texto2">secuencia principal</span></a>.
+                <br>
+                La mayor parte de las estrellas de nuestra galaxia, incluyendo al Sol, se clasifican como estrellas de secuencia principal. Existen en un estado estable de fusión nuclear, en el que transforman al hidrógeno en helio e irradian rayos X. En este proceso se emite una gran cantidad de energía, ya que se mantiene alta la temperatura de la estrella, que brilla intensamente.
+            </p>
+                    <div class="text-center">
+                    <img class="img-sol rounded" src="images/sol.jpg" alt="Nebulosa">
+                    </div>
+            </div>
+        </section>
+        <!-- TODO LO QUE BRILLA -->
+        <section id="brilla" class="brilla seccion-oscura2">
+            <div class="contenedor seccion-oscura2">
+                <h1 class="titulo-brilla">Todo lo que brilla</h1>
+                <p class="seccion-texto-4">
+                    Algunas estrellas brillan más que otras. Su brillo es un factor que depende de cuánta energía irradien (es decir, su luminosidad) y de cuán lejos de la Tierra se encuentren. El color de las estrellas también puede variar, porque su temperatura no es siempre la misma. Las estrellas más calientes son blancas o azules, mientras que las más frías son de tonos naranjas o rojos.
+                    
+                    <br>
+                    Al graficar estas y otras variables en un esquema que se denomina diagrama de Hertzsprung-Russell, los astrónomos pueden clasificar las estrellas en grupos. Además de las estrellas de secuencia principal y las enanas blancas, podemos mencionar otros grupos, como las estrellas enanas, las gigantes y las supergigantes. Las supergigantes pueden llegar a tener un radio mil veces mayor al del mismísimo Sol. 
+                </p>
+            </div>
+        </section>
+        <!-- CARRUSEL ESTRELLAS -->
+        <section id="carrusel" class="carrusel seccion-clara3">
+
+        <!-- ESTRELLAS CARRUSEL-->
+        <div id="estrellas-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="enana-roja rounded-circle" src="images/Próxima Centauri o Alfa Centauri C.jpg" class="rounded" alt="Próxima Centauri o Alfa Centauri C">
+                        <a href="https://es.wikipedia.org/wiki/Pr%C3%B3xima_Centauri" class="enlace2" target="_blank"><span class="fuenteh3">Enana roja Próxima Centauri,
+                        <br>
+                        la estrella más cercana al Sol a 4,2 años luz</span></a>
+                        <p class="texto">
+                            Se denomina <a href="https://www.sea-astronomia.es/glosario/estrella-enana" class="enlace2" target="_blank"><span class="fuenteh3">enanas</span></a> a las estrellas que se encuentran en la fase principal de su evolución, desde que nacen hasta que se agota el hidrógeno en su núcleo. Esta fase, conocida como secuencia principal, constituye prácticamente el noventa por ciento de la vida de la estrella.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="gigante-naranja rounded-circle" src="images/Pólux.png" class="rounded" alt="Pólux">
+                            <a href="https://es.wikipedia.org/wiki/P%C3%B3lux_(estrella)" class="enlace2" target="_blank"><span class="fuenteh3">Pólux es una estrella gigante naranja,
+                            <br>
+                            situada a 33,7 años luz de distancia</span></a>
+                            <p class="texto">
+                                Las estrellas <a href="https://www.sea-astronomia.es/glosario/gigante-roja" class="enlace2" target="_blank"><span class="fuenteh3">gigantes</span></a> son muy grandes y frías. Su tamaño, que puede llegar a unos pocos cientos de veces el radio del Sol, las hace merecedoras del término gigantes y su relativamente baja temperatura, de unos escasos 3000-4000 kelvin, las hace aparecer como rojas a nuestros ojos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="supergigante-azul rounded-circle" src="images/Alnilam.jpg" class="rounded" alt="Alnilam">
+                            <a href="https://es.wikipedia.org/wiki/Alnilam" class="enlace2" target="_blank"><span class="fuenteh3">El cinturón de Orión
+                            <br>
+                            Alnilam es la estrella ubicada en el centro de la imagen</span></a>
+                            <p class="texto">
+                                Las <a href="https://www.sea-astronomia.es/glosario/supergigante" class="enlace2" target="_blank"><span class="fuenteh3">supergigantes</span></a> son estrellas muy luminosas y enormemente grandes. En su máxima extensión, las supergigantes pueden llegar a alcanzar más de mil veces el radio solar, lo que equivale a extenderse más allá de la órbita de Júpiter.</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEBULOSAS CARRUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Nebulosa del Cangrejo.jpg" class="image-contain" alt="Nebulosa del Cangrejo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="texto-5">
+                        <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1604.html" class="enlace" target="_blank"><span class="texto-5">Nebulosa del Cangrejo</span></a>
+                        </h5>
+                    <p class="texto-6">La Nebulosa del Cangrejo es el resultado de una supernova. En su centro se encuentra un púlsar: una estrella de neutrones tan masiva como el Sol pero con solo el tamaño de una pequeña ciudad.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Nebulosa de la Mariposa.jpg" class="image-contain-2" alt="Nebulosa de la Mariposa">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="texto-5">
+                        <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_285.html" class="enlace" target="_blank"><span class="texto-5">Nebulosa de La Mariposa</span></a>
+                        </h5>
+                    <p class="texto-6">El Telescopio Espacial Hubble capturó esta imagen de la nebulosa con forma de "Ala de mariposa", NGC 2346. En el centro de la nebulosa se encuentra un par de estrellas que están tan juntas que orbitan una alrededor de la otra cada 16 días.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Nebulosa de la Cabeza de Bruja.jpg" class="image-contain-3" alt="Cabeza de Bruja">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="texto-5">
+                        <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1209.html" class="enlace" target="_blank"><span class="texto-5">Nebulosa Cabeza de Bruja</span></a>
+                    </h5>
+                    <p class="texto-6">La Nebulosa Cabeza de Bruja brilla principalmente por la luz reflejada por la estrella. El color de esta nebulosa muy azul se debe no solo al color azul de su estrella, sino también a que los granos de polvo reflejan la luz azul de manera más eficiente que la roja.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="seccion-oscura3 flex-colum align-items-center justify-content-center">
+        <img class="footer-logo" src="images/LJ2.png" alt="Lizeth Jimenez">
+        <p class="footer-texto text-center">
+            Si puedes imaginarlo, puedo programarlo.
+        </p>
+        <p class="footer-texto-2 text-center">
+            ¿Te unes conmigo?
+            <i class="bi bi-emoji-smile"></i>
+        </p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/Lizjmzg" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/fabiola-lizeth-jim%C3%A9nez-garc%C3%ADa-0a0ba6272/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/lizjmzg/?hl=es" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://wa.me/5542370313" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="mailto:210301jg@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">
+            Creado por Lizeth Jiménez (2023) &#169;
+        </div>
+    </footer>
+    </body>
+</html>

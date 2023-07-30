@@ -1,0 +1,390 @@
+/* BARRA DE NAVEGACIÓN*/
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-link{
+    font-family: 'Nuosu SIL', serif;
+    color: black;
+}
+
+/* SECCIÓN HERO */
+
+.hero{
+    background-color: #e2f0fa; 
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-pleyades{
+    width: 400px; 
+}
+
+/* TARJETA */
+
+.card-body{
+    width: 400px;
+    background-color: #f5f6f7;
+}
+
+.card-text{
+    /*font-family: 'Amiri Quran', serif;*/
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+.fuenteh1{
+    font-family: 'Chart',Georgia,serif;
+    color: black;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.enlace{
+    text-decoration-line: underline;
+    text-decoration-color:gold; 
+}
+
+.enlace2{
+    text-decoration-line: none;
+    color: black; 
+}
+
+.enlace2:hover{
+    color: white;
+}
+
+.enlace3{
+    text-decoration-line: underline;
+    text-decoration-color: gold;
+    color: black;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+.seccion-texto2{
+    color: black;
+}
+
+/* ESTILOS GENERALES */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+/* SECCIÓN OSCURA */
+
+.titulo-que-son{
+    font-size: 2rem;
+    padding: 8px;
+    font-family: 'Nuosu SIL', serif;
+    color: black;
+}
+
+.seccion-texto{
+    font-size: 1.1rem;
+    font-family: 'STIX Two Text', serif;
+    text-align: justify;
+    color: black;
+    padding: 15px;
+}
+
+/* SECCION CLARA */
+
+.seccion-clara{
+    color: black;
+}
+
+.titulo-nacimiento{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.seccion-texto-2{
+    font-size: 1.1rem;
+    text-align: justify;
+    font-family: 'STIX Two Text', serif;
+}
+
+.seccion-texto-3{
+    font-size: 1.1rem;
+    text-align: justify;
+    font-family: 'STIX Two Text', serif;
+} 
+
+/* SECCION OSCURA 2*/
+
+.seccion-oscura2{
+    color: black;
+}
+
+.titulo-brilla{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.seccion-texto-4{
+    font-size: 1.1rem;
+    text-align: justify;
+    font-family: 'STIX Two Text', serif;
+    padding: 15px; 
+}
+
+
+/* QUE SON LAS ESTRELLAS*/
+
+.que-son{
+    background-color:#00004e;
+    height: 240px;
+    padding: 100px;
+}
+
+.que-son .contenedor{
+    background-color: #e2f0fa;
+    max-width: 810px;
+    text-align: center;
+}
+
+/* IMAGENES */
+
+.estrellas{
+    height: 250px; 
+    width: 250px;
+    padding: 8px; 
+}
+
+/* NACE UNA ESTRELLA*/
+
+.nacimiento{
+    background-color:#00004e;
+    height: 1472px;
+    padding: 270px;
+}
+
+.nacimiento .contenedor{
+    background-color:#e2f0fa;
+    max-width: 2000px;
+    text-align: center;
+    padding: 15px; 
+}
+
+/* IMAGEN NEBULOSA Y SOL */
+
+.img-nebulosa{
+    width: 430px; 
+}
+
+.img-sol{
+    width: 430px; 
+}
+
+/* TODO LO QUE BRILLA */
+
+.brilla{
+    background-color:#00004e;
+    height: 289px;
+    padding: 140px;
+}
+
+.brilla .contenedor{
+    max-width: 1200px;
+    text-align: center;
+    padding: 4px;
+    background-color:#e2f0fa;
+}
+
+/* ESTRELLAS */
+
+.experiencia{
+    padding: 60px 40px 60px 40px;
+}
+
+.experiencia .columna{
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.experiencia i{
+    font-size: 2.5rem;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+} 
+
+/* ENANA ROJA */
+
+.enana-roja{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+}
+
+.fuenteh2{
+    color: black;
+    font-style: italic;
+    font-weight: 550;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+.fuenteh3{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    color: black;
+}
+
+.fuenteh3:hover{
+    color:#848484;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'STIX Two Text', serif;
+    padding: 15px;
+}
+
+/* GIGANTE NARANJA */
+
+.gigante-naranja{
+    width: 230px;
+    height: 230px;
+    padding: 15px;
+}
+
+.experiencia-titulo2{
+    padding: 7px;
+}
+
+/* SUPERGIGANTE AZUL*/
+
+.supergigante-azul{
+    width: 255px; 
+    height: 250px;
+    padding: 15px; 
+}
+
+/* CARRUSEL */
+
+.carousel-item{
+    width: 100px;
+    height: 530px;
+    background-color:black;
+}
+
+.image-contain{
+    width: 540px;
+}
+
+.image-contain-2{
+    width: 540px; 
+}
+
+.image-contain-3{
+    width: 540px;
+}
+
+.texto-5{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    text-decoration-line: underline;
+    text-decoration-color:gold;
+    color: white;
+}
+
+.texto-6{
+    font-family: 'STIX Two Text', serif;
+}
+
+/* CARRUSEL ESTRELLAS */
+
+.carrusel{
+    padding: 10px 10px 10px 10px;
+}
+
+.carrusel .carousel{
+    max-width: 500px;
+}
+
+
+.carousel-item .container{
+    background-color:#e2f0fa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* PIE DE PÁGINA - FOOTER*/
+footer{
+    min-height: 300px;
+    background-color:#00004e;
+}
+
+.footer-logo{
+    height: 100px;
+    width: 80px;
+    margin: 200px 50px 5px 50px;
+}
+
+.footer-texto{
+    font-size: 1.3rem;
+    padding: 40px;
+    margin-bottom: 30px;
+    font-family: 'STIX Two Text', serif;
+    color: white;
+}
+
+.footer-texto-2{
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'STIX Two Text', serif;
+}
+
+.iconos-redes-sociales a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color:#f5f6f7;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: white;
+    padding: 10px 10px 120px 10px; 
+}
+
