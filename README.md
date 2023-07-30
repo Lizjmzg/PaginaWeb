@@ -7,5 +7,8 @@ Se construyó una página web que lleva como tema principal la Astronomía, en l
 
 La página se encuentra dividida en x secciones:
 
+1. Primera parte de la página web
+![Primera parte de la página web.](images/Primera-parteweb.png)
+
 
 
