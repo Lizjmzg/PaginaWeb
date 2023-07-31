@@ -27,6 +27,7 @@ Esta página web fue creada con:
 + HTML5
 + CSS3
 + Bootstrap 5
+
 Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstrap icons** para incorporar íconos como flechas y logos de redes sociales populares.
 
 ## Español 💬
